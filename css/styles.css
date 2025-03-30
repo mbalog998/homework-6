@@ -1,0 +1,89 @@
+@import url("reset.css");
+
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+.wrapper div {
+	outline: 2px solid black;
+}
+.first-container {
+	background:rgb(238, 238, 172);
+	font-size: 0;
+
+}
+.sub-first-container {
+	display: inline-block;
+	font-size: 40px;
+	width: 400px;
+	padding: 10px;
+
+}
+
+.second-container {
+	background: rgb(188, 237, 237);
+	font-size: 0;
+	
+	
+}
+
+.sub-second-container {
+	
+	display: inline-block;
+	font-size: 20px;
+	width: 800px;
+	
+}
+
+.sub-second-container>div {
+	height: 200px;
+	padding: 10px;
+	text-align: justify;
+}
+
+.sub-second-container+.sub-second-container {
+	
+	width: 400px;
+}
+
+.sub-second-container+.sub-second-container>div {
+	height: 133.333px;
+}
+.third-container {
+	background: #f9e6f9;
+	font-size: 0;
+	margin-bottom: 10px;
+}
+.sub-third-container-one{
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	font-size: 20px;
+
+}
+.sub-third-container-two {
+	display: inline-block;
+	width: 800px;
+	font-size: 20px;
+}
+.sub-third-container-two>div {
+	height: 200px;
+}
+.sub-third-container-two>div {
+	font-size: 0;
+}
+.sub-third-container-two>div+div>div {
+	display: inline-block;
+	width: 400px;
+	height: 200px;
+	font-size: 20px;
+}
+.sub-third-container-two>div+div>div+div {
+	display: inline-block;
+	font-size: 0;
+	height: 100px;
+
+}
+
