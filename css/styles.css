@@ -86,47 +86,4 @@
 	height: 100px;
 
 }
-/*float/*
 
-
-.container {
-	width: 1200px;
-	margin: 0 auto;
-}
-
-.parent-float {
-	background: orange;
-	padding: 10px 0;
-}
-
-.child-float {
-	width: 300px;
-	outline: 2px solid blue;
-	/* display: block; */
-	float: left;
-}
-
-.float-test {
-	font-size: 30px;
-	background: olivedrab;
-	color: #fff;
-}
-
-.float-test img {
-	height: 100px;
-	float: left;
-}
-
-.wrapper {
-	width: 1200px;
-	margin: 0 auto;
-}
-
-.wrapper div {
-	outline: 2px solid blue;
-}
-
-.second-container {
-	background: orange;
-	font-size: 0;
-}
