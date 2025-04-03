@@ -16,7 +16,8 @@
 }
 .sub-first-container {
 	display: inline-block;
-	font-size: 40px;
+	font-size: 20px;
+	height: 400px;
 	width: 400px;
 	padding: 10px;
 
@@ -68,11 +69,15 @@
 	width: 800px;
 	font-size: 20px;
 }
+
 .sub-third-container-two>div {
 	height: 200px;
 }
 .sub-third-container-two>div {
 	font-size: 0;
+}
+div.sub-third-container-three {
+	font-size: 20px;
 }
 .sub-third-container-two>div+div>div {
 	display: inline-block;
@@ -80,10 +85,103 @@
 	height: 200px;
 	font-size: 20px;
 }
-.sub-third-container-two>div+div>div+div {
-	display: inline-block;
-	font-size: 0;
+.sub-third-container-two>div+div>div+div>div {
+	
 	height: 100px;
 
 }
 
+/*Float*/
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.parent-float {
+	background: rgb(188, 237, 237);
+	padding: 10px 0;
+}
+
+.child-float {
+	width: 300px;
+	outline: 2px solid black;
+	float: left;
+}
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.wrapper div {
+	outline: 2px solid black;
+}
+.first-container {
+	background:rgb(238, 238, 172);
+    margin-top: 10px;
+
+}
+.child-float-one {
+    float: left;
+	width: 400px;
+    height: 400px;
+	font-size:20px;
+	padding: 10px;
+
+}
+
+
+.second-container {
+	background: rgb(188, 237, 237);
+}
+.child-float-two {
+	float: left;
+	font-size: 20px;
+	width: 800px;
+}
+
+.child-float-two>div {
+	height: 200px;
+}
+
+.child-float-two+.child-float-two {
+	width: 400px;
+}
+
+.child-float-two+.child-float-two>div {
+	height: 133.333px;
+}
+.third-container {
+	background: #f9e6f9;
+	margin-bottom: 10px;
+}
+.child-float-three{
+	float: left;
+	width: 400px;
+	height: 400px;
+	font-size: 20px;
+
+}
+.child-float-four {
+	float: right;
+	width: 800px;
+	font-size: 20px;
+}
+div.child-float-four {
+	font-size: 20px;
+}
+.child-float-four>div {
+	height: 200px;
+}
+
+.child-float-four>div+div>div {
+	float: left;
+	width: 400px;
+	height: 200px;
+	font-size: 20px;
+}
+.child-float-four {
+    height: auto;
+}
+.child-float-four>div+div>div+div>div {
+	height: 100px;
+}
